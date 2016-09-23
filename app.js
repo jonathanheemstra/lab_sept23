@@ -30,7 +30,10 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a,b){ //eslint-disable-line
-
+  var multiply = a * b;
+  var message = 'The product of ' + a + ' and ' + b + ' is ' + multiply + '.';
+  var output = [multiply, message];
+  return output;
 }
 
 // Here is the test for multiply(); uncomment it to run it
