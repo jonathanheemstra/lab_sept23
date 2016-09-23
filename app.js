@@ -109,13 +109,9 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiplyArray(testArray){ //eslint-disable-line
   var multiplyArrayTotal = (multiply(testArray[0],testArray[1])[0]);
-  console.log(multiplyArrayTotal);
   multiplyArrayTotal = (multiply(multiplyArrayTotal,testArray[2])[0]);
-  console.log(multiplyArrayTotal);
   var multiplyArrayMessage = 'The numbers ' + testArray + ' have a product of ' + multiplyArrayTotal + '.';
-  console.log(multiplyArrayMessage);
   var output = [multiplyArrayTotal, multiplyArrayMessage];
-  console.log(output);
   return output;
 }
 
